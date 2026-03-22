@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1F3C"/>
+      <stop offset="50%" stop-color="#252A4A"/>
+      <stop offset="100%" stop-color="#1A1F3C"/>
+    </linearGradient>
+    <linearGradient id="brainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6B4CE6"/>
+      <stop offset="100%" stop-color="#4F8EF7"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6B4CE6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6B4CE6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid pattern -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="630"/>
+    <line x1="60" y1="0" x2="60" y2="630"/>
+    <line x1="120" y1="0" x2="120" y2="630"/>
+    <line x1="180" y1="0" x2="180" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/>
+    <line x1="420" y1="0" x2="420" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/>
+    <line x1="540" y1="0" x2="540" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="660" y1="0" x2="660" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/>
+    <line x1="780" y1="0" x2="780" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/>
+    <line x1="1020" y1="0" x2="1020" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/>
+    <line x1="1140" y1="0" x2="1140" y2="630"/>
+    <line x1="1200" y1="0" x2="1200" y2="630"/>
+    <line x1="0" y1="0" x2="1200" y2="0"/>
+    <line x1="0" y1="63" x2="1200" y2="63"/>
+    <line x1="0" y1="126" x2="1200" y2="126"/>
+    <line x1="0" y1="189" x2="1200" y2="189"/>
+    <line x1="0" y1="252" x2="1200" y2="252"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="378" x2="1200" y2="378"/>
+    <line x1="0" y1="441" x2="1200" y2="441"/>
+    <line x1="0" y1="504" x2="1200" y2="504"/>
+    <line x1="0" y1="567" x2="1200" y2="567"/>
+    <line x1="0" y1="630" x2="1200" y2="630"/>
+  </g>
+
+  <!-- Central glow -->
+  <circle cx="600" cy="315" r="300" fill="url(#glowGrad)"/>
+
+  <!-- Large brain icon - centered, abstract -->
+  <g transform="translate(600, 280)">
+    <!-- Outer brain shape - stylized -->
+    <path d="M0 -120 C-60 -120 -100 -80 -100 -20 C-100 40 -70 90 -30 110 C-50 130 -65 145 -65 160 C-65 175 -55 185 -40 185 C-20 185 10 175 20 160 C30 175 60 185 80 185 C95 185 105 175 105 160 C105 145 90 130 70 110 C110 90 140 40 140 -20 C140 -80 100 -120 40 -120 C30 -130 20 -135 10 -135 C-5 -135 -15 -128 -22 -118 C-35 -128 -55 -135 -75 -135 C-90 -135 -100 -125 -100 -115 C-100 -105 -90 -98 -78 -96 C-65 -93 -45 -105 -45 -105 C-30 -115 0 -120 0 -120Z"
+          fill="url(#brainGrad)" opacity="0.2"/>
+    
+    <!-- Neural network nodes -->
+    <circle cx="-30" cy="-50" r="12" fill="url(#brainGrad)"/>
+    <circle cx="30" cy="-70" r="12" fill="url(#brainGrad)"/>
+    <circle cx="60" cy="-10" r="12" fill="url(#brainGrad)"/>
+    <circle cx="20" cy="30" r="12" fill="url(#brainGrad)"/>
+    <circle cx="-40" cy="20" r="12" fill="url(#brainGrad)"/>
+    <circle cx="-10" cy="80" r="12" fill="url(#brainGrad)"/>
+    <circle cx="50" cy="60" r="12" fill="url(#brainGrad)"/>
+    <circle cx="-60" cy="-10" r="10" fill="url(#brainGrad)" opacity="0.7"/>
+    <circle cx="80" cy="-40" r="10" fill="url(#brainGrad)" opacity="0.7"/>
+    <circle cx="0" cy="0" r="8" fill="url(#brainGrad)" opacity="0.5"/>
+    
+    <!-- Neural connections -->
+    <g stroke="url(#brainGrad)" stroke-width="3" stroke-linecap="round" opacity="0.8">
+      <line x1="-30" y1="-50" x2="30" y2="-70"/>
+      <line x1="30" y1="-70" x2="60" y2="-10"/>
+      <line x1="-30" y1="-50" x2="-40" y2="20"/>
+      <line x1="-40" y1="20" x2="20" y2="30"/>
+      <line x1="20" y1="30" x2="60" y2="-10"/>
+      <line x1="20" y1="30" x2="-10" y2="80"/>
+      <line x1="60" y1="-10" x2="50" y2="60"/>
+      <line x1="-10" y1="80" x2="50" y2="60"/>
+      <line x1="-30" y1="-50" x2="20" y2="30" opacity="0.5"/>
+      <line x1="30" y1="-70" x2="20" y2="30" opacity="0.5"/>
+      <line x1="-40" y1="20" x2="-10" y2="80" opacity="0.5"/>
+      <line x1="60" y1="-10" x2="-10" y2="80" opacity="0.5"/>
+      <line x1="-60" y1="-10" x2="-30" y2="-50" opacity="0.5"/>
+      <line x1="30" y1="-70" x2="80" y2="-40" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- Company name -->
+  <text x="600" y="470" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" fill="#FFFFFF">AI Content Factory</text>
+
+  <!-- Tagline -->
+  <text x="600" y="520" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="400" fill="#6B7280" letter-spacing="2">AI-POWERED CONTENT GENERATION</text>
+
+  <!-- Decorative bottom line -->
+  <rect x="520" y="545" width="160" height="3" rx="1.5" fill="url(#brainGrad)"/>
+</svg>
